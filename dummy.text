@@ -1,0 +1,7 @@
+function init() {
+    //"get" the span in the h2 in the heacer
+    let span = document.querySelector("header h2 span");
+    //that <span> is now in the variable named span
+    //and I can work with it in JavaScript
+    //insert the current time
+    span.textContent = (new Date()).toLocaleDateString()
