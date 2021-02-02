@@ -4,6 +4,14 @@ body {
     line-height: 1;
 }
 
+#textarea4,
+#textarea5,
+#textarea6,
+#textarea7,
+#textarea8 {
+    background: gray;
+}
+
 textarea {
     background: transparent;
     border: none;
